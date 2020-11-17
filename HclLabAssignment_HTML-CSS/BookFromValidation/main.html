@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Form Validation</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='form.css'>
+    <script src='valid.js'></script>
+</head>
+<body>
+    <form name="bookForm" id="bookId" action="#" method="GET"  >
+        <table align="center">
+            <tr>
+                <td>
+                    <label>Enter ISBN:</label>
+                </td>
+               
+                <td>
+                   <input type="text" name="isbn" id="isbnId"/> 
+                </td>
+                <td>
+                    <label id="isbnmsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>
+                        Enter Title:
+                     </label>
+                </td>
+                <td>
+                    <input type="text" name="title" id="titleId"/> 
+                </td>
+                <td>
+                    <label id="titlemsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>
+                        Enter Price:
+                    </label>
+                </td>
+                <td>
+                    <input type="number" name="price" id="priceId"/>
+                </td>
+                <td>
+                    <label id="pricemsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        Enter The book type:
+                     </label>
+                </td>
+                <td>
+                    <input type="text" name="type" id="typeId"/> 
+                </td>
+                <td>
+                    <label id="booktypemsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>
+                        Enter No. of copies:
+                     </label>
+                </td>
+               
+                <td>
+                    <input type="number" name="No.ofCopies" id="CopiesId"/>
+                </td>
+                <td>
+                    <label id="copiesmsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>
+                        Enter Name of the publisher:
+                     </label>
+                </td>
+               
+                <td>
+                    <input type="text" name="publisher" id="publisherId"/> 
+                </td>
+                <td>
+                    <label id="publishermsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        Enter Name of the Author:
+                     </label>
+                </td>
+               
+                <td>
+                    <input type="text" name="Author" id="AuthorId"/> 
+                </td>
+                <td>
+                    <label id="authormsg" class ="ErrorMsg"></label>
+                </td>
+            </tr>
+            <tr >
+                <td> 
+                    <input id="submitId" name="submit" type="submit" value="Submit the form" onclick="return validateForm();">
+                    
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

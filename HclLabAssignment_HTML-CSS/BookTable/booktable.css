@@ -1,0 +1,18 @@
+table{
+    text-align: center;
+    align-self: center;
+   
+    background-color:rgb(233, 213, 194);
+}
+td{
+    color:blueviolet;
+}
+th{
+    color:rgb(14, 2, 2);
+}
+header{
+    text-align: center;
+    margin-top:6%;
+    color: rgb(8, 155, 131);
+
+}

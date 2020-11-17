@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Entry Form</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='EntryForm.css'>
+    <script src='valid.js'></script>
+</head>
+<body>
+   <form id="entryform" method="GET" action="#">
+    <table>
+       
+        <tr>
+            <td>
+                <labLe>Book Title:</labLe>
+            <input type="text" id="titleid" ><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <labLe>Book Author:</labLe>
+            <input type="text" id="authorid" ><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <labLe>Book Price:</labLe>
+            <input type="number" id="priceid" ><br>
+            </td>
+        </tr>
+      
+        <tr>
+            <td>
+             <labLe>ISBN No:</labLe>
+             <input type="number" id="isbnid" ><br>
+            </td>
+         </tr>
+         
+         <tr>
+            <td><input type="submit" value="Submit the form"  id="submitId" onclick="return valid()" ></td>
+        </tr>
+    </table>
+   </form>
+    
+</body>
+<footer id="footerContent">&copy; copy rights information</footer>
+</html>
