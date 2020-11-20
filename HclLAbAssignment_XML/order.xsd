@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/order" xmlns:tns="http://www.example.org/order" elementFormDefault="qualified">
+
+    <element name="order" type="tns:order"></element>
+    
+    <complexType name="order">
+    	<sequence>
+    		<element name="orderId" type="int" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="customerName" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="customerAdd" type="string"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</element>
+    		<element name="orderItem" type="tns:orderItem"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="orderItem">
+    	<sequence>
+    		<element name="orderName" type="string"></element>
+    		<element name="orderNos" type="int"></element>
+    	</sequence>
+    </complexType>
+</schema>

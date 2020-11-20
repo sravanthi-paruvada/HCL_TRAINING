@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE people SYSTEM "Peopel.dtd">
+<people>
+	<husband employed = "no" payment = "cash">
+		<name>kiran</name>
+		<age>50</age>
+			<wife>
+				<wname>seema</wname>
+				<age>45</age>
+			</wife>
+			
+	</husband>
+	
+	
+</people>
